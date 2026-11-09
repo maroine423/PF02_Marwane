@@ -23,16 +23,14 @@ namespace PF02_Marwane
         }
         public static bool EsContrasenyaValida(string contrasenya)
         {
-            if (string.IsNullOrEmpty(contrasenya))
-                return false;
+            bool valida = false;
 
-            if (contrasenya.Length < 8)
-                return false;
+            if (contrasenya != null && contrasenya.Length >= 8 && contrasenya.Contains("#"))
+            {
+                valida = true;
+            }
 
-            if (!contrasenya.Contains("#"))
-                return false;
-
-            return true;
+            return valida;
         }
 
 
