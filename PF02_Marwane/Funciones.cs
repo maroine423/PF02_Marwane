@@ -12,12 +12,14 @@ namespace PF02_Marwane
             if (n < 0)
                 return -1;
 
-            long resultado = 1;
+            long factorial = 1;
 
-            for (int i = 2; i <= n; i++)
-                resultado *= i;
+            for (int numero = 2; numero <= n; numero++)
+            {
+                factorial *= numero;
+            }
 
-            return resultado;
+            return factorial;
         }
 
 
