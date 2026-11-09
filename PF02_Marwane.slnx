@@ -3,5 +3,5 @@
     <File Path=".gitignore" />
   </Folder>
   <Project Path="FuncionesTest.Test/FuncionesTest.Test.csproj" />
-  <Project Path="PF02_Marwane/PF02_Marwane.csproj" />
+  <Project Path="PF02_Marwane/PF02_Marwane.csproj" Id="1d4be74f-bcb7-4ed6-a3f4-b33bf15f2999" />
 </Solution>

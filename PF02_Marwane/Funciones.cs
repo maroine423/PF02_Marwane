@@ -21,6 +21,17 @@ namespace PF02_Marwane
 
             return factorial;
         }
+        public static bool EsContrasenyaValida(string contrasenya)
+        {
+            bool valida = false;
+
+            if (contrasenya != null && contrasenya.Length >= 8 && contrasenya.Contains("#"))
+            {
+                valida = true;
+            }
+
+            return valida;
+        }
 
 
     }
